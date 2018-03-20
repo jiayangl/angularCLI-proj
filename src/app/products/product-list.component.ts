@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
     pageTitle: string = 'Product List';
+    imageWidth: number = 50;
+    imageMargin: number = 2;
     products: any[] =  [
         {
             "productId": 2,
@@ -15,7 +17,7 @@ export class ProductListComponent {
             "description": "15 gallon capacity rolling garden cart",
             "price": 32.99,
             "starRating": 4.2,
-            "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/31s7nNMzMUL._SX425_.jpg"
         },
         {
             "productId": 5,
